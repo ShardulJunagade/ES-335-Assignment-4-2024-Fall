@@ -1,16 +1,3 @@
-# ES-335-Assignment-4-2024-Fall
-
-## Team Name - Bias Busters
-Team Members:
-1. [Shardul Junagade](https://github.com/ShardulJunagade)
-2. [Soham Gaonkar](https://github.com/Soham-Gaonkar)
-3. [Umang Shikarvar](https://github.com/Umang-Shikarvar)
-4. [Sharvari Mirge](https://github.com/msharvari31)
-
-This repository contains the code for the assignment 4 of the course ES 335: Machine Learning Fall-2024 at IIT Gandhinagar taught by Prof. Nipun Batra.
-
-**Total marks: 11**
-
 ## Task 1: Binary Classification Task
 
 In this question, you have to compare the performance on a binary classification task of the following models: 
@@ -60,17 +47,3 @@ In this question, you have to compare the performance on a binary classification
 5. Now, create an MLP model with parameters comparable to VGG16 and compare your performance with the other models in the table. You can choose the distribution of the number of neurons and the number of layers. What can you conclude? **[0.5 marks]**
 
 6. Finally, use any image generation tool of your choice. Provide a prompt that helps create an easily classifiable image; and provide a prompt that creates a harder-to-classify image.  Show the performance of various models on these sets of images. Minimum 4 such images can be created. Class A: easy, Class A: hard; Class B: easy, Class B: hard **[1 mark]**
-
-## Task 2: KNN Variants
-
-In this question you will implement and compare the following different KNN variants (see: [Approximate KNN Tutorial](https://youtu.be/C9HQLyXwEw0?t=3382))
-
-1. LSH **[1 marks]**  
-2. KD-tree **[1 marks]**  
-3. Naive version of KNN **[0.5 marks]**
-
-Vary dataset size $N$, number of dimensions $D$ to do training and testing time and memory comparison for finding $K$ nearest neighbours. **[1 mark]**  
-
-Now, in a 2d randomly generated dataset visually show how many of the $K$ closest neighbors, approximate KNN methods (LSH and KD-tree) miss out due to their approximate nature.
-
-Also show the partitions in the 2d space. **[0.5 marks]**  
